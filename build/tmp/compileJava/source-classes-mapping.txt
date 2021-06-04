@@ -8,9 +8,17 @@ co/com/proyectobase/screenplay/userinterface/LaPaginaDeInicio.java
  co.com.proyectobase.screenplay.userinterface.LaPaginaDeInicio
 co/com/proyectobase/screenplay/userinterface/OpcionesMenuChoucair.java
  co.com.proyectobase.screenplay.userinterface.OpcionesMenuChoucair
-co/com/proyectobase/screenplay/tasks/AbrirLaSeccion.java
- co.com.proyectobase.screenplay.tasks.AbrirLaSeccion
-co/com/proyectobase/screenplay/userinterface/OpcionDeMenuEmpleo.java
- co.com.proyectobase.screenplay.userinterface.OpcionDeMenuEmpleo
 co/com/proyectobase/screenplay/tasks/IrAlPortaDeEmPleos.java
  co.com.proyectobase.screenplay.tasks.IrAlPortaDeEmPleos
+co/com/proyectobase/screenplay/userinterface/OpcionDeMenuEmpleo.java
+ co.com.proyectobase.screenplay.userinterface.OpcionDeMenuEmpleo
+co/com/proyectobase/screenplay/tasks/AbrirLaSeccionEmpleo.java
+ co.com.proyectobase.screenplay.tasks.AbrirLaSeccionEmpleo
+co/com/proyectobase/screenplay/tasks/IrNuestrasVacantes.java
+ co.com.proyectobase.screenplay.tasks.IrNuestrasVacantes
+co/com/proyectobase/screenplay/userinterface/PaginaMagnetoMenu.java
+ co.com.proyectobase.screenplay.userinterface.PaginaMagnetoMenu
+co/com/proyectobase/screenplay/userinterface/VerOferta.java
+ co.com.proyectobase.screenplay.userinterface.VerOferta
+co/com/proyectobase/screenplay/tasks/Ver.java
+ co.com.proyectobase.screenplay.tasks.Ver
