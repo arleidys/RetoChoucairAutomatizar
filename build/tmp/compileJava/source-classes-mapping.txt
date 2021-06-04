@@ -1,0 +1,16 @@
+co/com/proyectobase/screenplay/util/Constantes.java
+ co.com.proyectobase.screenplay.util.Constantes
+co/com/proyectobase/screenplay/util/PaginaHook.java
+ co.com.proyectobase.screenplay.util.PaginaHook
+co/com/proyectobase/screenplay/tasks/Abrir.java
+ co.com.proyectobase.screenplay.tasks.Abrir
+co/com/proyectobase/screenplay/userinterface/LaPaginaDeInicio.java
+ co.com.proyectobase.screenplay.userinterface.LaPaginaDeInicio
+co/com/proyectobase/screenplay/userinterface/OpcionesMenuChoucair.java
+ co.com.proyectobase.screenplay.userinterface.OpcionesMenuChoucair
+co/com/proyectobase/screenplay/tasks/AbrirLaSeccion.java
+ co.com.proyectobase.screenplay.tasks.AbrirLaSeccion
+co/com/proyectobase/screenplay/userinterface/OpcionDeMenuEmpleo.java
+ co.com.proyectobase.screenplay.userinterface.OpcionDeMenuEmpleo
+co/com/proyectobase/screenplay/tasks/IrAlPortaDeEmPleos.java
+ co.com.proyectobase.screenplay.tasks.IrAlPortaDeEmPleos
