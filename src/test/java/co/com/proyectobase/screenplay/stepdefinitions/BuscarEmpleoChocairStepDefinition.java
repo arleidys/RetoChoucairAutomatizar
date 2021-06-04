@@ -4,6 +4,7 @@ import co.com.proyectobase.screenplay.tasks.*;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
+import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actors.OnStage;
 
 public class BuscarEmpleoChocairStepDefinition {
@@ -32,5 +33,5 @@ public class BuscarEmpleoChocairStepDefinition {
     @Entonces("^ella verifica que el empleo buscado sea el correcto$")
     public void ellaVerificaQueElEmpleoBuscadoSeaElCorrecto() {
         OnStage.theActorInTheSpotlight().attemptsTo(Ver.descripcionDeLaOferta());
-    }
+            }
 }
