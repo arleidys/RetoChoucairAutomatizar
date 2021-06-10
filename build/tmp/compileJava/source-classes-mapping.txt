@@ -22,3 +22,5 @@ co/com/proyectobase/screenplay/userinterface/VerOferta.java
  co.com.proyectobase.screenplay.userinterface.VerOferta
 co/com/proyectobase/screenplay/tasks/Ver.java
  co.com.proyectobase.screenplay.tasks.Ver
+co/com/proyectobase/screenplay/questions/Larespuesta.java
+ co.com.proyectobase.screenplay.questions.Larespuesta

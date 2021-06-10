@@ -1,11 +1,17 @@
 package co.com.proyectobase.screenplay.stepdefinitions;
 
+import co.com.proyectobase.screenplay.questions.Larespuesta;
 import co.com.proyectobase.screenplay.tasks.*;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
+import org.hamcrest.Matchers;
+
+import java.util.regex.Matcher;
 
 public class BuscarEmpleoChocairStepDefinition {
 
@@ -28,10 +34,11 @@ public class BuscarEmpleoChocairStepDefinition {
     @Cuando("^va a Nuestras Vacantes disponibles$")
     public void vaANuestrasVacantesDisponibles() {
         OnStage.theActorInTheSpotlight().attemptsTo(IrNuestrasVacantes.filtrarPorNombreDeEmpleo());
+        OnStage.theActorInTheSpotlight().attemptsTo(Ver.descripcionDeLaOferta());
     }
 
     @Entonces("^ella verifica que el empleo buscado sea el correcto$")
     public void ellaVerificaQueElEmpleoBuscadoSeaElCorrecto() {
-        OnStage.theActorInTheSpotlight().attemptsTo(Ver.descripcionDeLaOferta());
+             //   OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Larespuesta.es(), Matchers.equalTo("Analista de Pruebas en Formación")));
             }
 }
