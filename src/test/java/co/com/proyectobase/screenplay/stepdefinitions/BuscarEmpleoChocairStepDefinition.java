@@ -39,6 +39,7 @@ public class BuscarEmpleoChocairStepDefinition {
 
     @Entonces("^ella verifica que el empleo buscado sea el correcto$")
     public void ellaVerificaQueElEmpleoBuscadoSeaElCorrecto() {
+        //se agrego esta linea despues que se envio el reto para poder validar la capa question aun esta en implementacion.
              //   OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Larespuesta.es(), Matchers.equalTo("Analista de Pruebas en Formación")));
             }
 }
